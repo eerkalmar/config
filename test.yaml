@@ -1,0 +1,18 @@
+LogConfig:
+  name: 'VertexServer'
+  remote: 'http://localhost:5341/'
+  local: 'Logs/'
+  batchsize: 1
+  buffer: 'E:\Vertex Data\VertexServer\Test\Log\remote-buffer-vtx-server'
+  apikey: 'igjw5NuXLDXzgjT695kC'
+  console: true
+  encodecoloredconsole: true
+  EnableTraceLogger: true
+  otelEndpoint: 'http://10.65.5.70:4317'
+
+ServiceConfig:
+  name: 'VTX_TEST'
+  description: 'Vertex Server - TEST - Energy Essentials'
+
+ApplicationEnvironmentConfig:
+  instanceprefix: 'TEST'
